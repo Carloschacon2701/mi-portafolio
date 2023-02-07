@@ -1,0 +1,68 @@
+.skill-row{
+    display: flex;
+    text-align: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+
+}
+
+
+
+.title-row{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+}
+
+
+.fa-react::before{
+    color: skyblue;
+    
+}
+
+.fa-code::before{
+    background: -webkit-linear-gradient(#FFE53B, #FF2525);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.fa-globe::before{
+    background: -webkit-linear-gradient(#5CFF00, #7DF9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.firs-des{
+    background-color: #fff;
+    height: 100%;
+    padding: 20px;
+    margin: 0 50px;
+    width: 100%;
+    border-radius: 19px;
+    color: rgb(68, 68, 68);
+    line-height: 25px;
+    box-shadow: 0 5px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title, .des-para{
+    margin-top: 10px;
+}
+
+.icon{
+    transition: all 1.5s;
+}
+
+.icon:hover{
+    transform: rotate(360deg);
+}
+

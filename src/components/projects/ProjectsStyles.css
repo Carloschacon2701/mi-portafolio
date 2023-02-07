@@ -1,0 +1,151 @@
+.main-project-container {
+  /*background-color: rgb(243, 243, 243);*/
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 50%, rgba(249,249,249,1) 100%);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.title-projects {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  position: relative;
+  color: rgb(68, 68, 68);
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+
+.projects-text {
+  margin: 20px 0 80px 0;
+}
+
+.pe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  z-index: 333;
+  transition: 1.5s;
+}
+
+.pe:hover{
+    transform: scale(1.09);
+}
+
+.projects-containers {
+  display: flex;
+  position: relative;
+  right: 11rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.description-project p {
+  font-size: 15px;
+  margin-top: -10px;
+  color: rgb(68, 68, 68);
+}
+
+/* LO CAMBIE*/
+.description-project1 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(231, 231, 231, 1) 100%
+  );
+  z-index: 111;
+  position: absolute;
+  padding: 25px;
+  border-radius: 10px;
+  width: 30rem;
+  height: 7rem;
+  text-align: justify;
+  transform: translate(-9rem, 0px);
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* LO CAMBIE*/
+.project-main1 {
+  z-index: 111;
+  position: absolute;
+  transform: translate(-18rem, -6.5rem);
+  text-align: right;
+  color: rgb(68, 68, 68);
+}
+
+.brands1 {
+  position: absolute;
+  transform: translate(-15.9rem, 6rem);
+}
+
+/*LO MOVI*/
+.img-project1 {
+  position: relative;
+  background: transparent;
+  width: 650px;
+  height: 350px;
+  border-radius: 15px;
+  transform: translate(22.6rem, 0px);
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*ALINEADOS A LA DERECHA*/
+
+.description-project2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(231, 231, 231, 1) 100%
+  );
+  z-index: 111;
+  position: absolute;
+  padding: 25px;
+  border-radius: 10px;
+  width: 30rem;
+  height: 7rem;
+  text-align: justify;
+  transform: translate(29.5rem, 0px);
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.project-main2 {
+  z-index: 111;
+  position: absolute;
+  transform: translate(38.5rem, -6.5rem);
+  text-align: right;
+  color: rgb(68, 68, 68);
+  
+}
+
+.brands2 {
+  position: absolute;
+  transform: translate(36.5rem, 6rem);
+}
+
+.img-project2 {
+  position: relative;
+  background: transparent;
+  width: 650px;
+  height: 350px;
+  border-radius: 15px;
+  transform: translate(-2.2rem, 0px);
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.my-projects{
+  margin: 0 150px;
+
+}
+
+
