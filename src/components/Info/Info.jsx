@@ -40,10 +40,9 @@ export const Info = () => {
         <div className="firs-des des-3"  data-aos="fade-up">
           <div className="text">
             <i className="fa-solid fa-globe fa-4x icon"></i>
-            <h2 className="title">HTML and CSS</h2>
+            <h2 className="title">Advanced English</h2>
             <p className="des-para">
-              Experience in layouts and styling with these principal languages
-              and frameworks
+            Extensive knowledge of English language with an intermediate-advanced level
             </p>
           </div>
         </div>
