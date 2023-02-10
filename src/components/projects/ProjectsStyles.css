@@ -150,3 +150,85 @@
 }
 
 
+
+@media (max-width:1090px) {
+  .projects-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+  }
+
+  .my-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .description-project1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    z-index: 111;
+    position:relative;
+    transform: translate( 0px);
+  }
+  
+  /* LO CAMBIE*/
+  .project-main1 {
+    z-index: 111;
+    position: relative;
+    transform: translate(0px);
+    text-align: center;
+
+  }
+  
+  .brands1 {
+    position: relative;
+    transform: translate(0px);
+  }
+  
+  /*LO MOVI*/
+  .img-project1 {
+    margin-top: 15px;
+    position: relative;
+    transform: translate(0px);
+    
+  }
+  
+  /*ALINEADOS A LA DERECHA*/
+  
+  .description-project2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    z-index: 111;
+    position: relative;
+    transform: translate(0px);
+    
+  }
+  
+  .project-main2 {
+    z-index: 111;
+    position: relative;
+    transform: translate(0px);
+    
+  }
+  
+  .brands2 {
+    position: relative;
+    transform: translate(0px);
+  }
+  
+  .img-project2 {
+    margin-top: 15px;
+    position: relative;
+    transform: translate(0px, 0px);
+  }
+
+
+
+
+
+
+  
+}
+
