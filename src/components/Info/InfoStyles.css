@@ -66,3 +66,29 @@
     transform: rotate(360deg);
 }
 
+@media (max-width: 952px){
+    .skill-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+
+    }
+
+    .info{
+        align-items: center;
+    }
+    
+    .firs-des{
+        margin: 0;
+        min-width: 197px;
+    }
+
+    .title-row{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 800;
+        font-size: 30px;
+
+    }
+}

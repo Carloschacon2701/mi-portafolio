@@ -10,7 +10,6 @@
     z-index: 9999;
     position: absolute;
     top: 0;
-
 }
 
 .navBar h1{
@@ -51,6 +50,75 @@
 
 }
 
+.menu-icons{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .navBar h1{
+        margin-left: 0px;
+        text-transform: uppercase;
+        font-weight: 800;
+        
+    } 
+    .menu-icons{
+        display: block;
+    }
+
+    .NavBar-logo.active1{
+        color: rgb(68, 68, 68);
+    }
+}
+@media  (max-width: 850px) {
+
+    .navBar{
+        z-index: 99;
+    }
+
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #fff;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        text-align: center;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        width: 100%;
+        margin: 0; 
+        z-index: -10;
+        transition: all 0.45s ease-in-out ;
+    }
+
+    .nav-items.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+
+
+    .nav-list a{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+        transition: all 0.5s ease-in-out;
+        border-radius: 19px;
+    }
+
+    .nav-list a:hover{
+        background-color: rgb(68, 68, 68);
+        
+    }
+
+    
+    
+}
 
 
 

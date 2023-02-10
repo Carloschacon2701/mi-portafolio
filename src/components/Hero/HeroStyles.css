@@ -27,3 +27,30 @@
     font-weight: 400;
     color: #fff;
 }
+
+@media (max-width:546px) {
+    .my-name{
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        width: 50%;
+        margin-left: 20px;
+        line-height: 4.5rem;
+    }
+    
+}
+
+@media (max-width:400px) {
+
+    .my-name h1{
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .my-name p{
+        font-size: 15px;
+    }
+
+
+    
+}

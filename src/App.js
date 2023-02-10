@@ -1,12 +1,10 @@
-
 import './App.css';
-import { Contact } from './components/ContactMe.jsx/Contact';
+
 import { Footer } from './components/Footer/Footer';
 import { Hero } from './components/Hero/Hero';
 import { Info } from './components/Info/Info';
-import { Navbar } from './components/Navbar/Navbar';
+import  Navbar  from './components/Navbar/Navbar';
 import { Projects } from './components/projects/Projects';
-
 
 
 function App() {
