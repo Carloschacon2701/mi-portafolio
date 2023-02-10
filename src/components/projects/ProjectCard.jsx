@@ -6,7 +6,7 @@ export const ProjectCard = ({foto, title, description, number, aos, technologies
     <div>
       <div className='projects-containers' data-aos={aos} data-aos-duration="1500">
       <div className={"project-main" + number}>
-          <h1>{title}</h1>
+          <h1 className="subtitulo">{title}</h1>
         </div>
         <div className={"img-project" + number}>
           <img className="pe" alt=" " src={foto}/>

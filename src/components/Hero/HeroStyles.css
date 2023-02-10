@@ -49,8 +49,31 @@
 
     .my-name p{
         font-size: 15px;
+
+    } 
+
+    .my-name{
+        width: auto;
+        text-align: left;
+        
+    }
+}
+
+@media (max-width:360px) {
+
+    .my-name h1{
+        font-size: 45px;
+        font-weight: 800;
+        position: absolute;
+        transform: translate(-60px);
+        text-align: center;
     }
 
 
-    
+    .my-name p{
+        font-size: 12px;
+        text-align: left;
+        position: relative;
+        transform: translate(-60px, 190px);
+    } 
 }
